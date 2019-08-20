@@ -13,7 +13,7 @@ The data provided contains the hourly bike rented count for a city for two years
 * Feature Scaling: Continuous variables - Count, Temp, Humidity were standardized using Standard Scaler for improving model performance. 
 * Test & Validation Set: The dataset was split into Train, Validation and Test sets. The Test set includes the last 30 days of the data while the rest of the data was split into Train and Validation data. Instead of splitting it randomly this method retains the seasonality and trend of data in both the Train and Test sets. 
 
-Data Analysis Insights: 
+#### Data Analysis Insights: 
 * The plot of variable Count over the period of two years reveals that there is an increasing trend in bike share pattern implying higher demand in 2012 compared to 2011. As well as there is a seasonality pattern implying higher demand in some seasons. 
 * During Weekdays, people are mostly using the bikes to go and come from work/school whereas on Weekends people are mostly using bikes during the afternoon time 
 * Across different Seasons the demand for bikes is highest in Fall season, followed by Summer and Winter. In Spring season, the demand for bikes is the least. 
