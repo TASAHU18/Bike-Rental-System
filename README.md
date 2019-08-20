@@ -24,5 +24,4 @@ From the data, we have the dependent variables and the independent variable, so 
 
 The models I have trained the data were Stochastic Gradient Descent, Lasso, Ridge, Support Vector Regressor and Random Forest Regressor. The performance of these models is measured using three metrics Mean Absolute Error (MAE), Root Mean Square Error (RMSE) and R Square. 
 Random Forest Regressor performed better than others across all the three metrics. This is mainly due to fact that our data has a lot of categorical features Tree Based algorithms generally perform good on categorical data. The performance metrics of Random Forest model were as follows: 
-Mean Absolute Error | Root Mean Squared Error | R² score 
-0.44 		            | 0.64 		                | 0.69
+###### Mean Absolute Error - 0.44 	 | Root Mean Squared Error - 0.64  | R² score - 0.69
